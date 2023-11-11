@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/AboutLayout.astro"; 
+import {myProject} from '../utils/project'
+---
+
+<Layout title="">
+    <div class="contact">
+          <div class="about">
+            <div class="text">
+                <p>Hello! My name is Dose, and I'm interested in creating innovative solutions and writing software that can enhance software performance. I enjoy working with SolidJS + Astro for UI development and Actix-web for server-side development. Additionally, I'm proficient in the basics of ReactJS and ExpressJS using TypeScript, which is a language I particularly enjoy.</p>
+                <p>I have knowledge in REST APIs and tRPC, and I understand how to interact with databases using ORMs and ODMs such as Mongoose and Prisma. While I have some understanding of unit testing with vitest, I'm also interested in exploring application performance through the study of tools like Swc, Vite, lifecycle management, and Big O.</p>
+                <p>Furthermore, I can create desktop and mobile apps using Tauri, which offers small size and high performance. I have a fondness for both Rust and TypeScript as programming languages.</p>
+            </div>
+        </div>  
+    </div>
+</Layout>
+
+<style lang="scss">
+    .contact{
+        width: 100%;
+        .about{
+            margin-top: 0px;
+            width: 100%;
+            color: white;
+            display: flex;
+            align-items: center;
+            .text{
+                width: 100%;
+                h2{
+                    border-bottom: 2px solid white;
+                    width: fit-content;
+                }
+                p{
+                    font-size: 0.75em;
+                    text-indent:2em;
+                }
+            }
+        }
+    }
+</style>
