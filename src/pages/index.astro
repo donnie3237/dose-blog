@@ -23,7 +23,8 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1 class="mr-2">Mingalaba</h1>
+      <img class="rounded-full w-40 border-solid" src="https://scontent.fcnx2-1.fna.fbcdn.net/v/t39.30808-6/312348834_3197116877205465_2126874881459619309_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFQjJj_arxU66kVtt0p8dL5oj1KJYy9r5uiPUoljL2vm2LJIZFv-cH1pJH9AOIZl5R6Lg8nyhrEK_aYHRmc3RRj&_nc_ohc=18lB6eZokW0AX9Q63LI&_nc_ht=scontent.fcnx2-1.fna&oh=00_AfCOD_tSLq7nATZ00qoB9DkyCRPRcZOjXnw_URBt0h2ZtQ&oe=6554B02D" alt="">
+      <h1 class="mr-2">Sawaddeekub</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -45,15 +46,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         blog theme. This theme follows best practices and provides accessibility
         out of the box. Light and dark mode are supported by default. Moreover,
         additional color schemes can also be configured.
-      </p>
-      <p>
-        Read the blog posts or check
-        <LinkButton
-          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
       </p>
       {
         // only display if at least one social link is enabled
@@ -87,7 +79,18 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </>
       )
     }
-
+    <section>
+      <p class="my-10">
+        Read the blog posts or check
+        <LinkButton
+          className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
+          href="https://github.com/satnaing/astro-paper#readme"
+        >
+          README
+        </LinkButton> for more info.
+      </p>
+    </section>
+    <Hr/>
     <section id="recent-posts">
       <h2>Recent Posts</h2>
       <ul>
