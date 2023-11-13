@@ -1,6 +1,6 @@
 ---
 title: Shuttle for rust back-end hosting
-author: Sat Naing
+author: dose
 pubDatetime: 2023-11-10T03:42:51Z
 postSlug: Shuttle-for-rust-back-end-hosting
 featured: false

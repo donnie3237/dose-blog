@@ -1,6 +1,6 @@
 ---
 title: Many company using rust
-author: Sat Naing
+author: dose
 pubDatetime: 2023-11-10T03:42:51Z
 postSlug: how-do-i-develop-my-terminal-portfolio-website-with-react
 featured: false
