@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "dose on mars",
   desc: "hello my name is paradorn lungchoy",
   title: "DOSE",
-  ogImage: "og.jpg",
+  ogImage: "/og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
