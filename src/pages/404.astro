@@ -40,3 +40,9 @@ import LinkButton from "@components/LinkButton.astro";
     @apply mt-4 text-2xl sm:text-3xl;
   }
 </style>
+
+<script>
+  const dose = Date.now()
+  const myEl = document.getElementById("yo") as HTMLElement;
+  myEl.innerHTML = dose.toString()
+</script>
