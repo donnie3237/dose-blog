@@ -9,5 +9,5 @@ tags:
   - Astro
   - web
 description:
-  "EXAMPLE POST: ทาวริ เป็นเฟรมเวิร์คสำหรับสร้าง เนทีฟแอพ สำหรับมือถือ และ PC นอกจากนี้มันยังมีประสิทธิภาพที่ไม่ธรรมดาด้วยภาษา Rust"
+  "EXAMPLE POST: astro is full-stack framework and blazingly fast performance i will talk about it"
 ---
