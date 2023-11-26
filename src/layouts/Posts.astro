@@ -24,6 +24,7 @@ const next = pageNum < totalPages ? "" : "disabled";
 <Layout title={`Posts | ${SITE.title}`}>
   <Header activeNav="posts" />
   <Main pageTitle="Posts" pageDesc="All the articles I've posted.">
+    <a href="/tags" class="link"># By tags {`>>>`}</a>
     <ul>
       {
         posts.map(({ data }) => (
@@ -73,5 +74,8 @@ const next = pageNum < totalPages ? "" : "disabled";
   }
   .disabled-svg {
     @apply group-hover:!fill-skin-base;
+  }
+  .link{
+    color: blue;
   }
 </style>
