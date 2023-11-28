@@ -6,10 +6,15 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 import compress from 'astro-compress'
+import vercel from '@astrojs/vercel/serverless'
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  output:'server',
+  adapter: vercel({
+    edgeMiddleware: true,
+  }),
   integrations: [
     tailwind({
       applyBaseStyles: false,
