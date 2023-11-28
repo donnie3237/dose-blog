@@ -14,6 +14,9 @@ export default defineConfig({
   output:'server',
   adapter: vercel({
     edgeMiddleware: true,
+    speedInsights: {
+      enabled: true,
+    },
   }),
   integrations: [
     tailwind({
