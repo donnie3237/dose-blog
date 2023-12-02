@@ -9,7 +9,7 @@ tags:
   - Shuttle
   - Rust
 description:
-  "EXAMPLE POST: shuttle is hosting service in back-end framework in Rust like axum ,actix-web and more framework"
+  "EXAMPLE POST: ทาวริ เป็นเฟรมเวิร์คสำหรับสร้าง เนทีฟแอพ สำหรับมือถือ และ PC นอกจากนี้มันยังมีประสิทธิภาพที่ไม่ธรรมดาด้วยภาษา Rust"
 ---
 
 ## shuttle for rust hosting

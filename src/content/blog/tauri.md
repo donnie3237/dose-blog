@@ -9,7 +9,7 @@ tags:
   - Rust
   - Tauri
 description:
-  "EXAMPLE POST: tauri is framework to create native app for mobile and desktop with performance in rust lang and HTML, css , js"
+  "EXAMPLE POST: ทาวริ เป็นเฟรมเวิร์คสำหรับสร้าง เนทีฟแอพ สำหรับมือถือ และ PC นอกจากนี้มันยังมีประสิทธิภาพที่ไม่ธรรมดาด้วยภาษา Rust"
 ---
 ## Tauri and Webview2 is great
 &nbsp;&nbsp;if i want to make Native app on Android IOS MacOS and Windows i will found alot of people say "Flutter" to me and i just found the defferent thing like power of webview2 make my life better because i can use HTML CSS JS to make Native application and web in same codebase
