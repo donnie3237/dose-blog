@@ -11,3 +11,14 @@ tags:
 description:
   "EXAMPLE POST: astro is full-stack framework and blazingly fast performance i will talk about it"
 ---
+
+# AstroJS SPA & MPA with staticsite generater
+
+## MDX
+content focus website to make best SEO
+
+## Viewtransition
+
+## Devtools
+
+## DB
