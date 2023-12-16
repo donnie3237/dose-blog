@@ -1,0 +1,36 @@
+.AI{
+    min-height: 100vh ;
+    width: 100%;
+    position: relative;
+    .promt{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        display: flex;
+        left: 0;
+        input{
+            outline: none;
+            bottom: 0;
+            padding: 0 10%;
+            left: 0;
+            width: calc(100vw - 80px );
+            height: 60px;
+            background-color: white;
+            border-top: 1px solid black;
+        }
+        button{
+            background-color: rgb(164, 164, 164);
+            width: 80px;
+            height: 60px;
+        }
+    }
+    .god{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img{
+            width: 200px;
+            border-radius: 50%;
+        }
+    }
+}

@@ -17,6 +17,7 @@
   "dependencies": {
     "@astrojs/check": "^0.2.1",
     "@astrojs/rss": "^3.0.0",
+    "@google/generative-ai": "^0.1.2",
     "@resvg/resvg-js": "^2.6.0",
     "@sentry/astro": "^7.86.0",
     "@spotlightjs/astro": "^1.0.0",
@@ -24,7 +25,9 @@
     "astro-compress": "^2.2.3",
     "fuse.js": "^6.6.2",
     "github-slugger": "^2.0.0",
+    "react-markdown": "^9.0.1",
     "remark-collapse": "^0.1.2",
+    "remark-gfm": "^4.0.0",
     "remark-toc": "^9.0.0",
     "sass": "^1.69.5",
     "satori": "^0.10.11",

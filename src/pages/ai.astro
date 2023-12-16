@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/AiLayout.astro"; 
+import Ai from '../components/Ai'
+---
+
+<Layout title="talk with AI">
+
+    <Ai client:load/>
+</Layout>
+
+<style lang="scss">
+    .contact{
+        width: 100%;
+        .about{
+            margin-top: 0px;
+            width: 100%;
+            color: white;
+            display: flex;
+            align-items: center;
+            .text{
+                width: 100%;
+                h2{
+                    border-bottom: 2px solid white;
+                    width: fit-content;
+                }
+                p{
+                    font-size: 0.9em;
+                    text-indent:2em;
+                }
+            }
+        }
+    }
+</style>
