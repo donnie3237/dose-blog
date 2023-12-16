@@ -4,7 +4,7 @@ import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/ge
 import Markdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 
-export default function Ai() {
+export default function Ai(): any {
     const [data , setData]= useState('')
     const [promt , setPromt] = useState('') 
     async function runAi(Apromt:string) {
@@ -54,7 +54,7 @@ export default function Ai() {
     setPromt('')
     // alert(response.text())
     }
-  function EnterKey(e) {
+  function EnterKey(e:any) {
     if(e.key == 'Enter'){
       runAi(promt)
     }
