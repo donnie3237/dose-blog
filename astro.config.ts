@@ -18,8 +18,20 @@ export default defineConfig({
       test: "Table of contents"
     }]],
     shikiConfig: {
-      theme: "one-dark-pro",
-      wrap: true
+      theme: 'dracula',
+      // Alternatively, provide multiple themes
+      // https://shikiji.netlify.app/guide/dual-themes#light-dark-dual-themes
+      experimentalThemes: {
+        light: 'github-light',
+        dark: 'github-dark',
+      },
+      syntaxHighlight: 'prism',
+      // Add custom languages
+      // Note: Shiki has countless langs built-in, including .astro!
+      // https://github.com/shikijs/shiki/blob/main/docs/languages.md
+      langs: ['js','py'],
+      // Enable word wrap to prevent horizontal scrolling
+      wrap: true,
     }
   },
   vite: {

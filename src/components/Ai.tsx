@@ -62,7 +62,7 @@ export default function Ai(): any {
   return (
     <div className='AI'>
       {data?         
-        <Markdown remarkPlugins={[remarkGfm]}>{data}</Markdown>
+        <Markdown>{data}</Markdown>
           :
           <div className="god">
             <img src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.6435-9/202226726_2845957542321402_1786322980007875441_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeHNEMwa9MzFsdD_WrlNjRHTlTST_jWEgZCVNJP-NYSBkM3n0kzQoqrye3vpgNIQEiLlgrxsSNLi_nhTCAxh_gG3&_nc_ohc=NDxSez0HrIQAX-FEc58&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfDYjIUoLrFXzVZTVKS0O_robRNht4x4rbsyY3ouP_RJSQ&oe=65A4F1C5" alt="" />
